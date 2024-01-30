@@ -1,0 +1,186 @@
+/* @font-face {
+  font-family: "Mplus", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700;800;900&display=swap");
+}
+
+@font-face{
+  font-family: 'Noticia Text', serif;
+  src:url("https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@1,400;1,700&display=swap");
+} */
+
+.center{
+  max-width: 1146px;
+  margin: 0 auto;
+}
+/* ---------------Header------------------ */
+.header {
+  background-image: url("/img/header/header__main-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__wrapper {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  gap: 158px;
+  padding: 67px 0 126px;
+  
+  /* border: 1px solid rgb(0, 255, 21); */
+}
+
+
+/* ------------------Scroll-container-------------- */
+
+.header__scroll-container {
+  position: absolute;
+  content:"";
+  right: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:30px;
+  height: 511px;
+ 
+  /* border: 1px solid rgb(255, 242, 0);
+  */
+}
+
+.header__scroll-text {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  font-size: 12.6px;
+  letter-spacing: 6px;
+  line-height: 26.2px;
+  text-transform: uppercase;
+  width: 265px;
+  transform: rotate(90deg);
+  color:white;
+  margin-bottom: 55px;
+  margin-top: 150px;
+  /* border:1px solid red; */
+}
+
+
+/* ----------------top-container------------- */
+
+.header__top-conateiner {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.header__logo {
+  margin-right: 198px;
+}
+
+.header__nav-container {
+  display: flex;
+  align-items: center;
+  width: 390px;
+  min-height: 30px;
+  margin-right: 98px;
+}
+
+.header__nav-items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__nav-item:hover{
+ text-decoration: underline;
+ color: #FCFCFC;
+}
+
+.header__link {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  font-size: 14.4px;
+  letter-spacing: 2px;
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.header__link:active{
+text-decoration: underline;
+}
+
+.header__number-container {
+  display: flex;
+  align-items: center;
+}
+
+.header__number {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fcfcfc;
+  letter-spacing: 2px;
+  margin-left: 18px;
+}
+
+/* -------------Heandler-tittle------------ */
+
+.header__headline-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 448px;
+}
+
+.header__sub-title {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  font-size: 14.4px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fcfcfc;
+}
+
+.header__title {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+}
+
+.header__title_white {
+  color: #fcfcfc;
+}
+
+.header__title_pink {
+  color: #f61067;
+}
+
+.header__subheader{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 106px;
+  margin-top:57px;
+  margin-left: -50vw;
+  margin-right: 460px;
+  opacity: 0.8;
+
+  border:1px solid #FFFFFF;
+}
+
+.header__text{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 29px;
+  color:#FCFCFC;
+}
+
+.header__subheader-arrow{
+  display: flex;
+  justify-content: center;
+  width:128px;
+  margin-left:18px;
+}
+

@@ -1,0 +1,102 @@
+.section-testimonials{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 450px;
+}
+
+/* ----------faces------------- */
+
+.section-testimonials__face{
+    position: absolute;
+}
+
+.section-testimonials__face_first{
+    top: 252px;
+    left:-102px;
+}
+
+.section-testimonials__face_second{
+    top: 37px;
+    left: 32px;
+}
+
+.section-testimonials__face_third{
+    top: 182px;
+    left: 195px;
+}
+
+.section-testimonials__face_fourth{
+    top:138px;
+    right:145px;
+}
+
+.section-testimonials__face_fifth{
+    top:97px;
+    right:37px; 
+}
+
+.section-testimonials__face_sixth{
+    top:191px;
+    right: -140px;
+}
+
+.section-testimonials__face_seventh{
+    top:0px;
+    right: -139px;
+}
+
+.section-testimonials__face_main{
+    width: 46px;
+    top:-126px;
+    left:336px;
+}
+
+.section-testimonials__face_quotes{
+    width: 92px;
+    top:302px;
+    left: 525px;
+}
+
+/* ------contant-------- */
+
+.section-testimonials__contant-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section-testimonials__text{
+    font-family: 'Noticia Text', serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 177.417%;
+    max-width:720px;
+    text-align: center;
+}
+
+/* -----------author-------------- */
+.section-testimonials__author-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 82px;
+}
+
+.section-testimonials__author-text{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 18px;
+    line-height: 163.35%
+}
+
+.section-testimonials__author-text_pink{
+    font-weight: 800;
+    color: #F61067;
+}
+
+.section-testimonials__author-text_white{
+    font-weight: 400;
+    color: #30233D;
+}

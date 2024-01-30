@@ -1,0 +1,59 @@
+.aside-quote{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 126px;
+    padding-bottom: 54px;
+}
+
+.aside-quote__img{
+    position:absolute;
+    content: "";
+    right: 0;
+    bottom:0;
+    width:398px;
+    height:505px;
+    background-image:url("/img/aside quote/aside-quote_img.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.aside-quote__rectangle{
+  width: 88%;
+  padding:89px 200px 89px 98px;
+  margin-bottom: 54px;
+  background-color:#5E239D ;
+}
+
+.aside-quote__comment-text{
+    font-family: 'Noticia Text', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22.5px;
+    line-height: 39.92px;
+    color:#FCFCFC;
+}
+
+.aside-quote__author-container{
+  display: flex;
+  margin-left: 98px;
+
+  /* border: 1px solid brown; */
+}
+
+.aside-quote__author-text{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 800;
+    font-size: 18px;
+    line-height: 29.4px;
+} 
+
+.aside-quote__author-text_pink{
+   font-weight: 800;
+   color: #F61067;
+}
+
+.aside-quote__author-text_white{
+  font-weight: 400;
+  color: #30233D;
+}
