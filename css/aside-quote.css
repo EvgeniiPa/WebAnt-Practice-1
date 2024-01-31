@@ -13,7 +13,7 @@
     bottom:0;
     width:398px;
     height:505px;
-    background-image:url("/img/aside quote/aside-quote_img.png");
+    background-image:url("../img/aside quote/aside-quote_img.png");
     background-repeat: no-repeat;
     z-index: 1;
 }

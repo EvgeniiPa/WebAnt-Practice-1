@@ -5,7 +5,7 @@
 }
 /* ---------------Header------------------ */
 .header {
-  background-image: url("/img/header/header__main-img.png");
+  background-image: url("../img/header/header__main-img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
