@@ -100,3 +100,123 @@
     font-weight: 400;
     color: #30233D;
 }
+
+/* --------------tablet-------------- */
+
+@media (min-width:768px) and (max-width: 1145px){
+
+    .section-testimonials__face_first{
+        top: 252px;
+        left:0px;
+        z-index: 1;
+    }
+    
+    .section-testimonials__face_second{
+        top: 37px;
+        left: 32px;
+        z-index: 21;
+    }
+    
+    .section-testimonials__face_third{
+        top: 182px;
+        left: 195px;
+    }
+    
+    .section-testimonials__face_fourth{
+        top:138px;
+        right:145px;
+    }
+    
+    .section-testimonials__face_fifth{
+        top:97px;
+        right:37px; 
+    }
+    
+    .section-testimonials__face_sixth{
+        top: 191px;
+        right:0px;
+    }
+    
+    .section-testimonials__face_seventh{
+        top:0px;
+        right: 0px;
+    }
+    
+    .section-testimonials__face_main{
+        margin: 0 auto;
+        left:calc(50vw - 230px);
+        top:-126px;
+    }
+    
+    .section-testimonials__face_quotes{
+        width: 92px;
+        top:302px;
+        left:calc(50vw - 46px);
+    }
+    
+    /* ------contant-------- */
+    
+    .section-testimonials__contant-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .section-testimonials__text{
+        font-family: 'Noticia Text', serif;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 177.417%;
+        max-width:720px;
+        text-align: center;
+    }
+    
+    /* -----------author-------------- */
+    .section-testimonials__author-container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 82px;
+    }
+    
+    .section-testimonials__author-text{
+        font-family: 'M PLUS 1p', sans-serif;
+        font-size: 18px;
+        line-height: 163.35%
+    }
+    
+    .section-testimonials__author-text_pink{
+        font-weight: 800;
+        color: #F61067;
+    }
+    
+    .section-testimonials__author-text_white{
+        font-weight: 400;
+        color: #30233D;
+    }
+
+
+}
+
+@media (max-width:1060px){
+
+    .section-testimonials__face_first,
+    .section-testimonials__face_second,
+    .section-testimonials__face_third,
+    .section-testimonials__face_fourth,
+    .section-testimonials__face_fifth,
+    .section-testimonials__face_sixth,
+    .section-testimonials__face_seventh{
+       display: none;
+    }
+
+}
+
+@media (min-width:360px) and (max-width: 767px){
+    .section-testimonials{
+        display:none;
+    }
+
+}

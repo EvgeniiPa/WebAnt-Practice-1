@@ -1,15 +1,6 @@
-/* @font-face {
-  font-family: "Mplus", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700;800;900&display=swap");
-}
-
-@font-face{
-  font-family: 'Noticia Text', serif;
-  src:url("https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@1,400;1,700&display=swap");
-} */
-
 .center{
   max-width: 1146px;
+  min-width: 360px;
   margin: 0 auto;
 }
 /* ---------------Header------------------ */
@@ -69,7 +60,6 @@
 .header__top-conateiner {
   display: flex;
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 .header__logo {
@@ -184,3 +174,136 @@ text-decoration: underline;
   margin-left:18px;
 }
 
+/* --------------tablet-------------- */
+
+@media (min-width:768px) and (max-width: 1145px) {
+
+  .header__wrapper {
+    gap:15vmax;
+  }
+  
+  /* ------------------Scroll-container-------------- */
+  
+  .header__scroll-container {
+   display: none;
+  }
+
+  /* ----------------top-container------------- */
+  
+  .header__top-conateiner {
+    justify-content: space-between;
+  }
+  
+  .header__logo {
+    margin-right:30px;
+  }
+  
+  .header__nav-container {
+    width: 34vmax; 
+    margin-right: 30px;
+  }
+    
+  .header__link {
+    font-weight: 700;
+    font-size: 13px;
+  }
+      
+  .header__number {
+    font-size: 12px;    
+  }
+  
+  /* -------------Heandler-tittle------------ */
+  
+  .header__headline-container {
+    max-height: 348px;
+  }
+  
+  .header__sub-title {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
+  
+  .header__title {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100px;
+  }
+    
+  .header__subheader{
+    margin-top:50px;
+    margin-left: 0px;
+    margin-right: 50vw;
+  }
+  
+  .header__text{
+    font-weight: 400px;
+    font-size: 1.5vw;
+    line-height: 20px;
+  }
+  
+  .header__subheader-arrow{
+    width:128px;
+    margin-left:1.5vw;
+  }
+
+}
+
+/* --------------mobile-------------- */
+
+@media (min-width:360px) and (max-width: 767px){
+  .header__wrapper{
+    height: 100vh;
+  }
+
+  .header__logo {
+    margin-right: 17vw;
+  }
+
+  .header__top-conateiner{
+
+  }
+
+  .header__nav-container{
+    display: none;
+  }
+
+  .header__scroll-container{
+    display: flex;
+    right:0px;
+  }
+
+  .header__scroll-text{
+    display: none;
+  }
+
+  .header__scroll-arrow{
+    display: none;
+  }
+
+  /* --------number-------- */
+  .header__number-container{
+    margin-right: 10px;
+  }
+
+  .header__number{
+    font-weight: 400;
+    font-size: 10px;
+   letter-spacing: 1px;
+  }
+
+  /*-------------headline-container------------ */
+  
+  .header__sub-title {
+    font-weight: 800;
+    font-size: 13px;
+  }
+  
+  .header__title {
+    font-size: 60px;
+    line-height: 90px;
+  }
+  
+  .header__subheader{
+    display: none;
+  }
+}

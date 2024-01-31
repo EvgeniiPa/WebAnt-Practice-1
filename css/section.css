@@ -96,3 +96,10 @@
     line-height:  26.463px;
     color: #FCFCFC;
 }
+
+@media (min-width:360px) and (max-width: 767px){
+    .section{
+        display:none;
+    }
+
+}

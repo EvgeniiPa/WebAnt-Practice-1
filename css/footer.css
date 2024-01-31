@@ -184,8 +184,8 @@
 .footer__messegers{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    width:205px;
+    width:14.1vw;
+    max-width:205px;
 }
 
 /* --------------footnote----------- */
@@ -204,4 +204,166 @@
     line-height: 163.35%;
     text-decoration: none;
     color: #FCFCFC;
+}
+
+
+
+    .twitter,
+    .facebook,
+    .instagram,
+    .youtube,
+    .messeg-m{
+      width:1.2vw;
+    }
+
+/* --------------tablet-------------- */
+
+@media (min-width:768px) and (max-width: 1145px){
+    
+    .footer{
+        padding-top: 90px;
+    }
+    
+    /* -------container---------- */
+    
+    .footer__container{
+        margin-bottom: 50px;
+    }
+
+    
+    /* ---------menu--------- */
+    
+    .footer__menu-container{
+        margin-right: 2vw;
+    }
+    
+    /* -----------------services-------------- */
+    
+    .footer__services-container{
+        margin-right:6.4vw;
+    }
+
+    /* -----------contact-us---------- */
+    
+    .footer__contact-us-container{
+        margin-right: 7vw;
+    }
+
+    /* --------------footnote----------- */
+    
+    .footer__footnote{
+        display: flex;
+        align-items: center;
+        padding-left: 294px;
+        margin-bottom: 50px;
+    }
+  
+
+
+}
+
+@media (min-width:768px) and (max-width: 910px){
+    
+    .footer__menu-container{
+        display: none;
+    }
+    
+    /* -----------------services-------------- */
+    
+    .footer__services-container{
+        display: none;
+    }
+
+    .footer__messegers{
+        width:150px;
+    }
+    
+    .twitter,
+    .facebook,
+    .instagram,
+    .youtube,
+    .messeg-m{
+      width:10px;
+    }
+
+}
+
+/* -------------------mobile----------------- */
+
+@media (min-width:360px) and (max-width: 767px){
+     .footer{
+        padding-top: 30px;
+     }
+    /* -------container---------- */
+    
+    .footer__container{
+       justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    
+    /* ----------logo---------- */
+    
+    .footer__logo-box{
+      display: none;
+    }
+   
+    /* ---------menu--------- */
+    .footer__menu-container{
+        display: none;
+    }
+    
+    /* -----------------services-------------- */
+    
+    .footer__services-container{
+        display: none;
+    }
+    
+    /* -----------contact-us---------- */
+    
+    .footer__contact-us-container{
+        width: 40vw;
+        margin: 0px;
+    }
+    
+    .footer__contact-us-title{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 207%;
+        margin-bottom: 15px;
+    }
+
+    
+    /* -----------follow-us--------- */
+    
+    .footer__follow-us-container{
+        max-width: 40vw;
+    }
+
+    .footer__messegers{
+        width: 150px;
+    }
+
+    .twitter,
+    .facebook,
+    .instagram,
+    .youtube,
+    .messeg-m{
+      width:10px;
+    }
+
+    
+    /* --------------footnote----------- */
+    
+    .footer__footnote{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding: 0px;
+    
+    }
+    
+    .footer__footnote-text{
+        font-size: 9px;
+    }
+
 }
