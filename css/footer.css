@@ -332,6 +332,14 @@
         margin-bottom: 15px;
     }
 
+    .footer__email{
+        font-size: 13px;
+    }
+
+    .footer__number {
+        font-size: 13px;
+        margin-left: 27px;
+    }
     
     /* -----------follow-us--------- */
     

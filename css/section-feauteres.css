@@ -214,5 +214,7 @@
         margin: 0 auto;
     }
 
-
+    .section-feauteres__imags{
+        display: none;
+    }
 }
